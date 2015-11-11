@@ -73,13 +73,12 @@ def play_game():
 				"bottom left": " ", "bottom center": " ", "bottom right": " "}
 	current_player = "X"
 	result = False
-<<<<<<< HEAD
+
 
 	print "WELCOME TO TIC TAC TOE!!!!!", '\n \n', "Player", current_player, "starts!"
 
-=======
 	print "Welcome to Tic Tac Toe!"
->>>>>>> origin/master
+
 	while not result:
 		display_board(current_positions)
 		current_positions, current_player = user_move(current_positions, current_player)
